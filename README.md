@@ -13,7 +13,7 @@ Install RPMBuild
 
 Install zstd requirements
 
-    yum install make gcc gtest-devel lz4-devel xz-devel gcc-c++ zlib-devel prelink
+    yum install make gcc lz4-devel xz-devel gcc-c++ zlib-devel execstack
 
 
 ### Getting Ready
