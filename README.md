@@ -59,3 +59,10 @@ zstd-1.5.2-1.el7.x86_64.rpm is the most important file for us which can now be i
 Note,
 
 - The `el7` part of the filename will change (possiblty) to `el8` or `el9` depending on your build platform/where you are building this RPM
+
+
+#### References and more
+
+- SPEC File was derived from: https://src.fedoraproject.org/rpms/zstd/blob/rawhide/f/zstd.spec
+- Tests are disabled/removed
+- PATCH-1 and PATCH-2 have been removed as well
