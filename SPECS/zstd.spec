@@ -34,7 +34,7 @@ Source0:        https://github.com/facebook/zstd/archive/v%{version}.tar.gz#/%{n
 
 
 BuildRequires:  make
-BuildRequires:  gcc gtest-devel
+#BuildRequires:  gcc gtest-devel
 %if %{with lz4}
 BuildRequires:  lz4-devel
 %endif
@@ -47,7 +47,7 @@ BuildRequires:  gcc-c++
 %if %{with zlib}
 BuildRequires:  zlib-devel
 %endif
-BuildRequires:  prelink
+BuildRequires:  execstack
 
 %description
 Zstd, short for Zstandard, is a fast lossless compression algorithm,
