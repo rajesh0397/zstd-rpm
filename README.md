@@ -1,4 +1,4 @@
-# zstd-rpm
+# zstd RPM Building
 
 Building zstd RPMs on CentOS 7 or AlmaLinux 8 or RockyLinux 8
 
