@@ -65,4 +65,4 @@ Note,
 
 - SPEC File was derived from: https://src.fedoraproject.org/rpms/zstd/blob/rawhide/f/zstd.spec
 - Any Tests are removed
-- PATCH-1 (pzstd.1.patch) and PATCH-2 (enable-CET.patch) have been removed as well
+- PATCH-1 (pzstd.1.patch) and PATCH-2 (enable-CET.patch) have been removed as well [Help Requested in getting them to work]
